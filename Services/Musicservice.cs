@@ -38,6 +38,25 @@ namespace DiscordMusicBot.Services
         public async Task LeaveAsync(SocketVoiceChannel voiceChannel)
             => await _lavaSocketClient.DisconnectAsync(voiceChannel);
 
+        public async Task stopAsync()
+        {
+            if (_player is null) { return;}
+
+            await _player.StopAsync();
+        }
+
+        public async Task<string> skipAsync()
+        {
+            if (_player is null || _player.Queue.Count is 0)
+            {
+                return $"nothin in q";
+            }
+
+            var oldtrack = _player.CurrentTrack;
+            await _player.SkipAsync();
+            return $"skipped {oldtrack} \n now playing {_player.CurrentTrack.Title}";
+
+        }
 
         public async Task<string> playAsync(string quary, ulong guildId)
         {

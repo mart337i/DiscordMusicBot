@@ -55,6 +55,20 @@ namespace DiscordMusicBot.Modules
             await ReplyAsync(result);
         }
 
+        [Command("stop")]
+        public async Task stop()
+        {
+            await _musicservice.stopAsync();
+            await ReplyAsync("music stopped");
+        }
+
+        [Command("skip")]
+        public async Task skipAsync()
+        {
+            var result = await _musicservice.skipAsync();
+            await ReplyAsync(result);
+        }
+
         [Command("help")]
         public async Task help()
         {
