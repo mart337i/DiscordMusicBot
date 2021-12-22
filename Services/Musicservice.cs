@@ -52,9 +52,9 @@ namespace DiscordMusicBot.Services
                 return $"nothin in q";
             }
 
-            var oldtrack = _player.CurrentTrack;
+            var oldtrack = _player.CurrentTrack.Title;
             await _player.SkipAsync();
-            return $"skipped {oldtrack} \n now playing {_player.CurrentTrack.Title}";
+            return $"skipped {oldtrack} \nnow playing {_player.CurrentTrack.Title}";
 
         }
 
@@ -86,7 +86,7 @@ namespace DiscordMusicBot.Services
         
         private async Task ClientOnReadyAsync()
         {
-            await _lavaSocketClient.StartAsync(_client, new Configuration // conf is importing for connecting
+            await _lavaSocketClient.StartAsync(_client, new Configuration // conf is importing for connecting.
             {
                 LogSeverity = LogSeverity.Verbose
             });

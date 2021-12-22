@@ -14,3 +14,38 @@
 2021-12-22 01:39:42.277  INFO 4536 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : {"guildId":"600735103127388180","op":"stop"}
 2021-12-22 07:26:37.571  INFO 4536 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61151 -- CloseStatus[code=1006, reason=]
 2021-12-22 07:26:37.571  INFO 4536 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-22 07:49:35.776  INFO 4536 --- [XNIO-1 task-9] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:53475
+2021-12-22 07:49:36.177  INFO 4536 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-22 07:49:36.177  WARN 4536 --- [XNIO-1 task-9] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-22 07:50:34.933  INFO 4536 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:53475 -- CloseStatus[code=1006, reason=]
+2021-12-22 07:50:34.948  INFO 4536 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-22 07:50:40.695  INFO 4536 --- [XNIO-1 task-10] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:53485
+2021-12-22 07:50:40.695  INFO 4536 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-22 07:50:40.695  WARN 4536 --- [XNIO-1 task-10] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-22 07:57:41.364  WARN 4536 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 0] [Bucket 20 = 0] [Bucket 50 = 0] [Bucket 200 = 1] [Bucket 500 = 0] [Bucket 2000 = 0] 
+2021-12-22 08:48:25.324  INFO 4536 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"ff2687353ce11ccb3c90dfebb676147e","event":{"endpoint":"rotterdam7247.discord.media:443","guildid":"600735103127388180","token":"6f2c1f1909d101a5"},"guildId":"600735103127388180","op":"voiceUpdate"}
+2021-12-22 08:48:45.037  INFO 4536 --- [XNIO-1 task-11] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:counting stars"
+2021-12-22 08:48:45.743  INFO 4536 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: counting stars
+2021-12-22 08:48:45.803  INFO 4536 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"endTime":0,"track":"QAAAmAIAM09uZVJlcHVibGljIC0gQ291bnRpbmcgU3RhcnMgKE9mZmljaWFsIE11c2ljIFZpZGVvKQALT25lUmVwdWJsaWMAAAAAAARVYAALaFRfbnZXcmVJaGcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1oVF9udldyZUloZwAHeW91dHViZQAAAAAAAAAA","noReplace":false,"startTime":0,"guildId":"600735103127388180","op":"play"}
+2021-12-22 08:49:33.562  INFO 4536 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"guildId":"600735103127388180","op":"destroy"}
+2021-12-22 09:32:24.898  INFO 4536 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"sessionId":"ff2687353ce11ccb3c90dfebb676147e","event":{"endpoint":"rotterdam8589.discord.media:443","guildid":"600735103127388180","token":"efa6cf71ceb68fcf"},"guildId":"600735103127388180","op":"voiceUpdate"}
+2021-12-22 09:32:34.362  INFO 4536 --- [XNIO-1 task-13] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:counting stars"
+2021-12-22 09:32:35.571  INFO 4536 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: counting stars
+2021-12-22 09:32:35.637  INFO 4536 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"endTime":0,"track":"QAAAmAIAM09uZVJlcHVibGljIC0gQ291bnRpbmcgU3RhcnMgKE9mZmljaWFsIE11c2ljIFZpZGVvKQALT25lUmVwdWJsaWMAAAAAAARVYAALaFRfbnZXcmVJaGcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1oVF9udldyZUloZwAHeW91dHViZQAAAAAAAAAA","noReplace":false,"startTime":0,"guildId":"600735103127388180","op":"play"}
+2021-12-22 10:00:56.819  INFO 4536 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : {"guildId":"600735103127388180","op":"destroy"}
+2021-12-22 11:02:56.402  INFO 4536 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:53485 -- CloseStatus[code=1006, reason=]
+2021-12-22 11:02:56.502  INFO 4536 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-22 11:03:07.975  INFO 4536 --- [XNIO-1 task-15] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:57687
+2021-12-22 11:03:08.303  INFO 4536 --- [XNIO-1 task-15] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-22 11:03:08.304  WARN 4536 --- [XNIO-1 task-15] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-22 11:09:41.437  WARN 4536 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 0] [Bucket 20 = 0] [Bucket 50 = 0] [Bucket 200 = 0] [Bucket 500 = 1] [Bucket 2000 = 0] 
+2021-12-22 11:14:00.598  INFO 4536 --- [XNIO-1 I/O-3] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:57687 -- CloseStatus[code=1006, reason=]
+2021-12-22 11:14:00.634  INFO 4536 --- [XNIO-1 I/O-3] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-22 11:14:11.299  INFO 4536 --- [XNIO-1 task-16] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:49490
+2021-12-22 11:14:11.709  INFO 4536 --- [XNIO-1 task-16] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-22 11:14:11.709  WARN 4536 --- [XNIO-1 task-16] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.
+2021-12-22 11:16:52.325  INFO 4536 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:49490 -- CloseStatus[code=1006, reason=]
+2021-12-22 11:16:52.325  INFO 4536 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2021-12-22 11:16:57.085  INFO 4536 --- [XNIO-1 task-17] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:50928
+2021-12-22 11:16:57.123  INFO 4536 --- [XNIO-1 task-17] lavalink.server.io.SocketServer          : Connection successfully established
+2021-12-22 11:16:57.123  WARN 4536 --- [XNIO-1 task-17] lavalink.server.io.SocketServer          : Library developers: Please specify a 'Client-Name' header.

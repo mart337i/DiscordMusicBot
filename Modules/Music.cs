@@ -59,7 +59,7 @@ namespace DiscordMusicBot.Modules
         public async Task stop()
         {
             await _musicservice.stopAsync();
-            await ReplyAsync("music stopped");
+            await ReplyAsync("Music stopped");
         }
 
         [Command("skip")]
@@ -73,10 +73,13 @@ namespace DiscordMusicBot.Modules
         public async Task help()
         {
             await ReplyAsync("1. use 'join' to make the bot join your chat.\n" +
-                             "2. @BotName play [link / name]\n" +
-                             "3.use 'skip' to skip to a new song\n" +
-                             "4.use 'stop' to stop the bot\n" +
-                             "5.pause and resume dos not exist yet");
+                             "2. @BotName play [link / name].\n" +
+                             "3.use 'skip' to skip to a new song.\n" +
+                             "4.use 'stop' to stop the bot.\n" +
+                             "5.pause and resume dos not exist yet.\n" +
+                             "6.use leave to make the bot leave the channel.\n\n" +
+                             "If the bot dosent play music, you can make the bot leave and join again\n" +
+                             "or contact the Owner");
         }
         
     }

@@ -40,7 +40,7 @@ namespace DiscordMusicBot
             var context = new SocketCommandContext(_client, usermessage);
             var Result = await _cmdService.ExecuteAsync(context, argpos, _services);
         }
-        public Task LogAsync(Discord.LogMessage logMessage)
+        public Task LogAsync(LogMessage logMessage)
         {
             Console.WriteLine(logMessage.Message);
             return Task.CompletedTask;
