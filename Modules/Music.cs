@@ -72,7 +72,11 @@ namespace DiscordMusicBot.Modules
         [Command("help")]
         public async Task help()
         {
-            await ReplyAsync("1. use 'join' to make the bot join your chat.\n2. @bot play and the link or the name of the song");
+            await ReplyAsync("1. use 'join' to make the bot join your chat.\n" +
+                             "2. @BotName play [link / name]\n" +
+                             "3.use 'skip' to skip to a new song\n" +
+                             "4.use 'stop' to stop the bot\n" +
+                             "5.pause and resume dos not exist yet");
         }
         
     }

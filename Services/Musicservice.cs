@@ -90,7 +90,6 @@ namespace DiscordMusicBot.Services
             {
                 LogSeverity = LogSeverity.Verbose
             });
-            
         }
         
         private async Task TrackFinished(LavaPlayer player, LavaTrack track, TrackEndReason reason)
@@ -111,7 +110,5 @@ namespace DiscordMusicBot.Services
             Console.WriteLine(message.Message);
             return Task.CompletedTask;
         }
-
-
     }
 }
